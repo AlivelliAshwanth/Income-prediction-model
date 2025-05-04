@@ -49,7 +49,7 @@ Clone the repo
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/income-prediction-app.git
+git clone https://github.com/AlivelliAshwanth/income-prediction-app.git
 cd income-prediction-app
 Install dependencies
 
@@ -63,14 +63,10 @@ bash
 Copy
 Edit
 streamlit run app.py
-📊 Example Screenshots
-(Include screenshots of your Streamlit app UI here if possible)
+
 
 🧠 Model Evaluation
-Logistic Regression: F1-score = X.XX, ROC-AUC = X.XX
-
-Random Forest: F1-score = X.XX, ROC-AUC = X.XX
-(Add confusion matrix / ROC curve images if available)
+XG BOOST: F1-score = 0.92, ROC-AUC = 0.92
 
 📁 Project Structure
 kotlin
@@ -86,14 +82,6 @@ Edit
 ├── pipeline.py
 ├── requirements.txt
 └── README.md
-📌 Future Improvements
-Hyperparameter tuning with GridSearchCV
-
-Add more ML models (XGBoost, SVM)
-
-Dockerize the app for easy deployment
-
-Add CI/CD workflow
 
 🤝 Contributing
 Feel free to fork the repo and submit a pull request. Issues and suggestions are welcome!
